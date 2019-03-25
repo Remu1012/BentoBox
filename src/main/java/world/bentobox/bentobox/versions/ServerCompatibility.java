@@ -72,7 +72,8 @@ public class ServerCompatibility {
         BUKKIT(Compatibility.INCOMPATIBLE),
         SPIGOT(Compatibility.COMPATIBLE),
         PAPER(Compatibility.NOT_SUPPORTED),
-        TACOSPIGOT(Compatibility.NOT_SUPPORTED);
+        TACOSPIGOT(Compatibility.NOT_SUPPORTED);        
+        AKARIN(Compatibility.NOT_SUPPORTED);
 
         private Compatibility compatibility;
 
